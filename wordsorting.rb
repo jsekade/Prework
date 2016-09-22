@@ -1,6 +1,9 @@
-puts "que tengas un buen dia"
+def wordsorting
+	puts "Que tengas un buen dia"
 
-word = ['que', 'tengas', 'un', 'buen', 'dia'].sort
+word = ['Que', 'tengas', 'un', 'buen', 'dia'].sort
 
-print word
+   print word
+end
 
+wordsorting
