@@ -1,9 +1,11 @@
 def wordsorting
-	puts "Que tengas un buen dia"
+	puts "que tengas un buen dia"
 
-word = ['Que', 'tengas', 'un', 'buen', 'dia'].sort
+word = 'que, tengas, un, buen, dia'
+word_array = word.split(', ')
+wordsort = word_array.sort
 
-   print word
+print wordsort
 end
 
 wordsorting
