@@ -6,6 +6,7 @@ for number in (0..100)
 		puts"Fizz"
 	elsif number % 5 == 0
 		puts "Buzz"	
+		
 	else
 		puts number
 

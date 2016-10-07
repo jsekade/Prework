@@ -1,11 +1,12 @@
 def wordsorting
 	puts "que tengas un buen dia"
 
-word = 'que, tengas, un, buen, dia'
-word_array = word.split(', ')
-wordsort = word_array.sort
+word = "que tengas un buen dia".split
+word_array = word.sort!
 
-print wordsort
+
+print word_array
 end
 
 wordsorting
+
